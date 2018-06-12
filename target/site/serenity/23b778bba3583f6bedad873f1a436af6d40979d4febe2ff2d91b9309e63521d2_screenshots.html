@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity Screenplay and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="17363577558269fce5044e5e1093b212e844f5f917262579495e770a963e9b9f.html">Register New User Story</a></span>
+                > <span class="truncate-60"><a
+                    href="23b778bba3583f6bedad873f1a436af6d40979d4febe2ff2d91b9309e63521d2.html">Start registration of the new user </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-06-2018 04:50</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register New User Story </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html">Register
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Start registration of the new user
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b44eaa9557e60b0fb060066df781eb3bd5c52d126a758cf426f8e5df2c97b4ca.png" title="Open the application" width="960"/>
+                <img src="b44eaa9557e60b0fb060066df781eb3bd5c52d126a758cf426f8e5df2c97b4ca.png" title="John opens the Presta home page" width="960"/>
+                <img src="scaled_f5718936af9560594251f13d488ce23fbf591134a04680c981c7f45b3ca40af3.png" title="Add new user for registraiion" width="960"/>
+                <img src="scaled_8f1981f8a58768d58e73380b7c750422104092c08c7029a760bca30f3aa5524c.png" title="John clicks on SignIn button" width="960"/>
+                <img src="d87a6fb9eccc7a7d9f3a94d4660284d33f92e023bac12b18c258eb6194a803de.png" title="John clicks on SignIn button" width="960"/>
+                <img src="d87a6fb9eccc7a7d9f3a94d4660284d33f92e023bac12b18c258eb6194a803de.png" title="John enters 'dummy@ema71.net' into email field" width="960"/>
+                <img src="scaled_54cc7a1f3a08c2716c02599ca3c6714d5e6efc7e27eabf2925ac736350728a73.png" title="John enters 'dummy@ema71.net' into email field" width="960"/>
+                <img src="54cc7a1f3a08c2716c02599ca3c6714d5e6efc7e27eabf2925ac736350728a73.png" title="John clicks on submit email button" width="960"/>
+                <img src="f5718936af9560594251f13d488ce23fbf591134a04680c981c7f45b3ca40af3.png" title="John clicks on submit email button" width="960"/>
+                <img src="scaled_95e55e70a708ccb3f33d7c899c59eb919b91a848ab7ab694928c41aa513baf23.png" title="Then the title of the page should be a string containing 'Login - My Store'" width="960"/>
+                <img src="scaled_aeb7c814b96f020046fee34e037571d8c6744e2e9dd3ae33ca596a63b0e802c3.png" title="Add new user for registraiion -continue with form" width="960"/>
+                <img src="scaled_856a8f50d3e71b0563ff5dd64fd4dff94375d58bfaa88d54fbd15b04117257d4.png" title="Add new user for registraiion -continue with form" width="960"/>
+                <img src="scaled_7b69a0a973e2981665babce31330a146f197255d4c1205562f76fa00a20d1a0b.png" title="John enters 'jonny' into first name" width="960"/>
+                <img src="scaled_e6c5724d1fe809735bb0352671154baa58cfd5ea335f391139d8498d428de980.png" title="John enters 'jonny' into first name" width="960"/>
+                <img src="scaled_f6267a117c08f819d77b3c107e00b0e348c4619c43d735a098e9eb5a97c8529e.png" title="John enters 'jankovsky' into last name" width="960"/>
+                <img src="scaled_bf4f49013a7c32b035a0e6842142be51be49715524c0e4ed316a706866c611cf.png" title="John enters 'jankovsky' into last name" width="960"/>
+                <img src="bf4f49013a7c32b035a0e6842142be51be49715524c0e4ed316a706866c611cf.png" title="John enters 'somePassword!' into password" width="960"/>
+                <img src="scaled_122d7619f383fa059857cc777f107b7efe660a65feea092581ae4378de6d9b1e.png" title="John enters 'somePassword!' into password" width="960"/>
+                <img src="scaled_796f08d443929b315697b02ea708eda066f0a625697c771f729896edd4385712.png" title="John select 2   on day of month" width="960"/>
+                <img src="scaled_e7d37d9a6948646e9d5b0c6ffde977af434e7888c2545019f75a606b23726bf4.png" title="John select 2   on day of month" width="960"/>
+                <img src="e7d37d9a6948646e9d5b0c6ffde977af434e7888c2545019f75a606b23726bf4.png" title="John select May  on month" width="960"/>
+                <img src="scaled_88cd0aa6fc41c6634254e839614d932c76dda6c140e6982e0567daf68ec2602c.png" title="John select May  on month" width="960"/>
+                <img src="88cd0aa6fc41c6634254e839614d932c76dda6c140e6982e0567daf68ec2602c.png" title="John select 1975   on month" width="960"/>
+                <img src="scaled_d43b0a390f710144ea7ac726540f8264dd27ddb7575180f14e95048357c3926e.png" title="John select 1975   on month" width="960"/>
+                <img src="d43b0a390f710144ea7ac726540f8264dd27ddb7575180f14e95048357c3926e.png" title="John enters 'jonnythesecond' into name on address" width="960"/>
+                <img src="scaled_006b9b62365e7d0a3d17ac289b25d2f00a48afa2ba0e7ddfbd6d50685f56cbef.png" title="John enters 'jonnythesecond' into name on address" width="960"/>
+                <img src="006b9b62365e7d0a3d17ac289b25d2f00a48afa2ba0e7ddfbd6d50685f56cbef.png" title="John enters 'jankovskytwo' into last name on address" width="960"/>
+                <img src="scaled_437215f9f68d4581c10068f25d7b40212eabe155aee65b69aed7a35924bdee4b.png" title="John enters 'jankovskytwo' into last name on address" width="960"/>
+                <img src="437215f9f68d4581c10068f25d7b40212eabe155aee65b69aed7a35924bdee4b.png" title="John enters 'SomeAddress' into address" width="960"/>
+                <img src="scaled_cd2eac5a006df69ffcaba50bd097f4264a15d2c2317d4193f0d7a55a8350520b.png" title="John enters 'SomeAddress' into address" width="960"/>
+                <img src="cd2eac5a006df69ffcaba50bd097f4264a15d2c2317d4193f0d7a55a8350520b.png" title="John enters 'SomeCity' into city" width="960"/>
+                <img src="scaled_a73e97816989bc1c4c45ba038418468ddf8516ae155625347a2cb8e90ad3d08e.png" title="John enters 'SomeCity' into city" width="960"/>
+                <img src="a73e97816989bc1c4c45ba038418468ddf8516ae155625347a2cb8e90ad3d08e.png" title="John enters '22333' into postal code" width="960"/>
+                <img src="scaled_058cc0f24f144698e7c859da6887959c12836b25afb5255b3ca70ef7af3306f4.png" title="John enters '22333' into postal code" width="960"/>
+                <img src="scaled_962cd6dcbc648b52aad206e94abce728419eff75eb42033ab75c4b8bde4d7734.png" title="John enters '1234652652652' into phone" width="960"/>
+                <img src="scaled_b40466b3b99cf55e2b62659d85f9f4bd6d45c9580abd380b7fa338d556dc0796.png" title="John enters '1234652652652' into phone" width="960"/>
+                <img src="b40466b3b99cf55e2b62659d85f9f4bd6d45c9580abd380b7fa338d556dc0796.png" title="John enters 'aliasText to be here' into alias" width="960"/>
+                <img src="scaled_f5d0d2206795d0cd0efb17dd8af23c4429aeae261a614447f94a7812ca2801b3.png" title="John enters 'aliasText to be here' into alias" width="960"/>
+                <img src="f5d0d2206795d0cd0efb17dd8af23c4429aeae261a614447f94a7812ca2801b3.png" title="John select Alabama on state" width="960"/>
+                <img src="scaled_a6ef2e88ffaa7fdf86fc55b6e6505bd49e919002262c0bd4da6bad2a122a250a.png" title="John select Alabama on state" width="960"/>
+                <img src="a6ef2e88ffaa7fdf86fc55b6e6505bd49e919002262c0bd4da6bad2a122a250a.png" title="John clicks on create account" width="960"/>
+                <img src="856a8f50d3e71b0563ff5dd64fd4dff94375d58bfaa88d54fbd15b04117257d4.png" title="John clicks on create account" width="960"/>
+                <img src="856a8f50d3e71b0563ff5dd64fd4dff94375d58bfaa88d54fbd15b04117257d4.png" title="Then the title of the page should be a string containing 'My account - My Store': <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

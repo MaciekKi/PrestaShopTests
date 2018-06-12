@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="prestashoptests.features.register.LogInAsExistingUserStory" skipped="0" tests="1" time="24.96" timestamp="2018-06-12T04:49:39.688+02:00[Europe/Belgrade]"><testcase classname="prestashoptests.features.register.LogInAsExistingUserStory" name="Should be able to log in"><failure message="&#10;Expected: a string containing &quot;My account - My store&quot;&#10;     but: was &quot;My account - My Store&quot;" type="java.lang.AssertionError">
+Expected: a string containing "My account - My store"
+     but: was "My account - My Store"</failure><system-err>
+Expected: a string containing "My account - My store"
+     but: was "My account - My Store"&#13;
+prestashoptests.features.register.LogInAsExistingUserStory.should_be_able_to_log_in(LogInAsExistingUserStory.java:42)&#13;
+</system-err></testcase></testsuite>
